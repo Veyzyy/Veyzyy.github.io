@@ -181,6 +181,7 @@ body {
     font-family: "Montserrat",sans-serif;
     background-color: #EEEEEE;
     margin-bottom: 30px;
+    outline: none;
 }
 
 .request-input:focus {
@@ -573,7 +574,7 @@ body {
         background-color: white;
         border-radius: 5px 0 0 5px;
         padding: 10px 15px 10px 15px;
-        filter: drop-shadow(0 4px 30px rgba(0,0,0,0.4));
+        box-shadow: 0 4px 30px rgba(0,0,0,0.4);
     }
 
     .burger-button {
@@ -608,6 +609,7 @@ body {
     .story-text {
         padding: 0 15px;
         margin-bottom: 30px;
+        text-align: center;
     }
 
     
