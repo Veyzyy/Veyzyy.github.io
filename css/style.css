@@ -301,6 +301,8 @@ body {
     box-sizing: border-box;
     max-width: 360px;
     background-color: white;
+    display: flex;
+    flex-direction: column;
 }
 
 .pack-name {
@@ -317,6 +319,10 @@ body {
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 70px;
+}
+
+.advantages {
+    margin-bottom: auto;
 }
 
 .advantages li{
