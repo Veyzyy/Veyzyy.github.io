@@ -213,6 +213,7 @@ body {
     transition: background-color 0.1s ease;
 }
 
+
 .request-button:hover {
     background-color: #b11b0d;
 }
@@ -465,6 +466,14 @@ body {
     height: 100%;
 }
 
+.price {
+    word-break: break-all;
+}
+
+.main-heading {
+    word-break: break-all;
+}
+
 
 
 
@@ -539,8 +548,9 @@ body {
     }
 
     .price-item {
-        max-width: none
+        max-width: none;
     }
+
 
     .testimonial-and-gallery__innner {
         display: grid;
@@ -624,7 +634,6 @@ body {
         text-align: center;
     }
 
-    
 
 }
 
